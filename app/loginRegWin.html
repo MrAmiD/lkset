@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="ru" class="bgi">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>-->>Dev SetInvest</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+	<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/css/ripples.min.css"/>
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body class="bgi">
+
+<!--Top Arrow start-->
+<a href="javascript:" id="return-to-top" style="">
+	<i class="fa fa-chevron-up" aria-hidden="true"></i>
+</a>
+<!--Top Arrow end-->
+
+<div id="my-header" class="d-flex align-items-center slick-menu">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-1 d-flex align-items-center mym-cont">
+				<a href="#my-menu" class="hamburger hamburger--squeeze js-hamburger" type="button" id="menu-btn">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+				</a>
+				<nav id="my-menu">
+				</nav>
+			</div>
+			<div class="col-5  col-xxl-12 d-flex align-items-center">
+				<a href="/" class="logo-cont logo-inner">
+					<img src="img/logo.png" alt="">
+				</a>
+			</div>
+			<div class="col-3 col-xxl-3 d-flex align-items-center">
+				<div class="phone">
+					<div class="ph">+ 7 (342) 2000-240 <span>доб. 7405</span></div>
+				</div>
+			</div>
+			<div class="col-3 col-xxl-3 d-flex align-items-center justify-content-end">
+				<a href="" class="d-flex flex-column profileName text-md-right">
+					<span class="mr-3 compName text-md-right">ООО "Компания бла бла"</span>
+					<span class="mr-3 usrName text-md-right">Максим Сушенцев</span>
+				</a>
+				<a href="" class="d-flex align-items-center" id="logOut">
+					<svg
+							xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink"
+							width="22px" height="18px">
+						<defs>
+							<filter id="Filter_0">
+								<feFlood flood-color="rgb(54, 52, 52)" flood-opacity="1" result="floodOut" />
+								<feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+								<feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+							</filter>
+
+						</defs>
+						<g filter="url(#Filter_0)">
+							<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+									d="M2.000,0.001 L20.000,0.001 C21.100,0.001 22.000,0.902 22.000,2.003 L22.000,5.997 L20.000,5.997 L20.000,1.983 L2.000,1.983 L2.000,16.027 L20.000,16.027 L20.000,12.003 L22.000,12.003 L22.000,16.017 C22.000,17.118 21.100,17.999 20.000,17.999 L2.000,17.999 C0.900,17.999 0.000,17.118 0.000,16.017 L0.000,2.003 C0.000,0.891 0.900,0.001 2.000,0.001 ZM12.000,13.004 L8.000,9.000 L12.000,4.996 L12.000,7.999 L22.000,7.999 L22.000,10.001 L12.000,10.001 L12.000,13.004 Z"/>
+						</g>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="my-content" class="main-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-xxl-12 m-auto">
+				<div class="white-win auth-win">
+					<div class="h2">
+						Вход в личный кабинет
+					</div>
+					<div action="" class="js-form-get">
+						<ul class="list-u js-single-i">
+							<li>
+								<div class="label-p">Юридическое лицо</div>
+								<div class="check-cont">
+									<input type="checkbox" id="urLico" name="urLico">
+									<label for="urLico"></label>
+								</div>
+							</li>
+							<li>
+								<div class="label-p">Индивидуальный предприниматель</div>
+								<div class="check-cont">
+									<input type="checkbox" name="ipC" id="ipC">
+									<label for="ipC"></label>
+								</div>
+							</li>
+							<li>
+								<div class="label-p">Физическое лицо</div>
+								<div class="check-cont">
+									<input type="checkbox" name="fizLic" id="fizLic">
+									<label for="fizLic"></label>
+								</div>
+							</li>
+						</ul>
+						<div class="inputs-c">
+							<div class="item">
+								<div class="label-p">ОГРН</div>
+								<div class="check-cont">
+									<input type="text" name="ogrn">
+								</div>
+							</div>
+							<div class="item">
+								<div class="label-p">Пароль</div>
+								<div class="check-cont">
+									<input type="password" name="pwd">
+								</div>
+							</div>
+						</div>
+						<div class="forgot-pwd text-right">
+							<a data-hide=".white-win.auth-win" data-show=".forgot-win" class="js-shWin" href="javascript:void(0);">Вспомнить пароль</a>
+						</div>
+						<div class="btn-c">
+							<button class="btn btn-accent" id="loginBtn">
+								Войти
+							</button>
+							<button class="btn btn-transparent js-shWin" data-hide=".white-win.auth-win" data-show=".white-win.reg-win" >
+								Зарегистрироваться
+							</button>
+						</div>
+					</div>
+				</div>
+				<div style="display: none;" class="white-win forgot-win">
+					<div class="h2">
+						Напоминание пароля
+					</div>
+					<div action="" class="js-form-get">
+						<ul class="list-u js-single-i">
+							<li>
+								<div class="label-p">Юридическое лицо</div>
+								<div class="check-cont">
+									<input type="checkbox" name="urLicoP" id="urLicoP">
+									<label for="urLicoP"></label>
+								</div>
+							</li>
+							<li>
+								<div class="label-p">Индивидуальный предприниматель</div>
+								<div class="check-cont">
+									<input type="checkbox" name="ipP" id="ipP">
+									<label for="ipP"></label>
+								</div>
+							</li>
+							<li>
+								<div class="label-p">Физическое лицо</div>
+								<div class="check-cont">
+									<input type="checkbox" name="fizLicP" id="fizLicP">
+									<label for="fizLicP"></label>
+								</div>
+							</li>
+						</ul>
+						<div class="inputs-c">
+							<div class="item">
+								<div class="label-p">ОГРН</div>
+								<div class="check-cont">
+									<input type="text" name="ogrnI" id="ogrnI">
+								</div>
+							</div>
+						</div>
+						<ul class="list-u row-lst js-single-i">
+							<li>
+								<div class="label-p">подтвердить по CMC</div>
+								<div class="check-cont">
+									<input type="checkbox" name="confirmSms" id="confirmSms">
+									<label for="confirmSms"></label>
+								</div>
+							</li>
+							<li>
+								<div class="label-p">подтвердить через e-mail</div>
+								<div class="check-cont">
+									<input type="checkbox" name="confirmEmail" id="confirmEmail">
+									<label for="confirmEmail"></label>
+								</div>
+							</li>
+						</ul>
+						<div>
+							<div class="h1">
+								google капча
+							</div>
+						</div>
+						<div class="btn-c">
+							<button class="btn btn-accent">
+								Напомнить
+							</button>
+							<button data-hide=".forgot-win" data-show=".white-win.auth-win" class="btn btn-transparent js-shWin" >
+								Назад
+							</button>
+						</div>
+					</div>
+				</div>
+				<div style="display: none;" class="white-win reg-win">
+					<div class="h2">
+						Регистрация
+					</div>
+					<div class="tabs-c">
+						<div class="item active" data-show=".ur-lico">
+							Юридическое лицо
+						</div>
+						<div class="item" data-show=".fiz-lico">
+							Физическое лицо
+						</div>
+						<div class="item" data-show=".ip-tab">
+							Индивидуальный предприниматель
+						</div>
+					</div>
+					<hr>
+					<div class="tabs-all">
+						<div class="item ur-lico">
+							<div action="">
+								<div class="inputs-c biger-inputs">
+									<div class="item">
+										<div class="label-p">Тип организационно правовой
+											формы</div>
+										<div class="check-cont">
+											<select>
+												<option>Полное товарищество</option>
+												<option>Товарищество на вере</option>
+												<option>Общество с ограниченной ответственностью</option>
+												<option>Общество с дополнительной ответственностью</option>
+												<option>Акционерное общество</option>
+												<option>Производственные кооперативы</option>
+												<option>Государственные и муниципальные унитарные предприятия</option>
+											</select>
+										</div>
+										<div class="check-cont cb d-flex align-items-center">
+											<input type="checkbox" name="otherOrg" id="otherOrg">
+											<label for="otherOrg"></label>
+											<div class="label-p">Другое</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Наименование организации</div>
+										<div class="check-cont">
+											<input type="text" name="orgName" id="orgName">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">ИНН юридического лица</div>
+										<div class="check-cont">
+											<input type="text" name="innUL" id="innUL">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">ОГРН</div>
+										<div class="check-cont">
+											<input type="text" name="ogrnReg" id="ogrnReg">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Фамилия доверенного лица</div>
+										<div class="check-cont">
+											<input type="text" name="lastNameReg" id="lastNameReg">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Имя доверенного лица</div>
+										<div class="check-cont">
+											<input type="text" name="nameFace" id="nameFace">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Отчество доверенного лица</div>
+										<div class="check-cont">
+											<input type="text" name="otchFace" id="otchFace">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Мобильный телефон
+											ответственного лица</div>
+										<div class="check-cont">
+											<input type="tel" name="phoneFace" id="phoneFace">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">E-mail ответственного лица</div>
+										<div class="check-cont">
+											<input type="text" name="emailFace" id="emailFace">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Подтверждение регистрации</div>
+										<div class="check-cont row-cb js-single-i">
+											<div class="item">
+												<input type="checkbox" name="confirmSms2" id="confirmSms2">
+												<label for="confirmSms2"></label>
+												<div class="label-p">по sms</div>
+											</div>
+											<div class="item">
+												<input type="checkbox" name="confirmSms2" id="confirmEmail2">
+												<label for="confirmEmail2"></label>
+												<div class="label-p">по email</div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p"></div>
+										<div class="check-cont row-cb w-50">
+											<div class="item">
+												<input type="checkbox" name="confirmSms2" id="acceptPers">
+												<label for="acceptPers"></label>
+												<div class="label-p">Я согласен на обработку моих персональных данных</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div style="display: none" class="item fiz-lico">
+							<div action="">
+								<div class="inputs-c biger-inputs">
+									<div class="item">
+										<div class="label-p">Тип организационно правовой
+											формы</div>
+										<div class="check-cont">
+											<select>
+												<option>Полное товарищество</option>
+												<option>Товарищество на вере</option>
+												<option>Общество с ограниченной ответственностью</option>
+												<option>Общество с дополнительной ответственностью</option>
+												<option>Акционерное общество</option>
+												<option>Производственные кооперативы</option>
+												<option>Государственные и муниципальные унитарные предприятия</option>
+											</select>
+										</div>
+										<div class="check-cont cb d-flex align-items-center">
+											<input type="checkbox" name="otherOrg" id="otherOrg">
+											<label for="otherOrg"></label>
+											<div class="label-p">Другое</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Наименование организации</div>
+										<div class="check-cont">
+											<input type="text" name="orgName" id="orgName">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">ИНН юридического лица</div>
+										<div class="check-cont">
+											<input type="text" name="innUL" id="innUL">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">ОГРН</div>
+										<div class="check-cont">
+											<input type="text" name="ogrnReg" id="ogrnReg">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Фамилия доверенного лица</div>
+										<div class="check-cont">
+											<input type="text" name="lastNameReg" id="lastNameReg">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Имя доверенного лица</div>
+										<div class="check-cont">
+											<input type="text" name="nameFace" id="nameFace">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Отчество доверенного лица</div>
+										<div class="check-cont">
+											<input type="text" name="otchFace" id="otchFace">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Мобильный телефон
+											ответственного лица</div>
+										<div class="check-cont">
+											<input type="tel" name="phoneFace" id="phoneFace">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">E-mail ответственного лица</div>
+										<div class="check-cont">
+											<input type="text" name="emailFace" id="emailFace">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Подтверждение регистрации</div>
+										<div class="check-cont row-cb js-single-i">
+											<div class="item">
+												<input type="checkbox" name="confirmSms2" id="confirmSms2">
+												<label for="confirmSms2"></label>
+												<div class="label-p">по sms</div>
+											</div>
+											<div class="item">
+												<input type="checkbox" name="confirmSms2" id="confirmEmail2">
+												<label for="confirmEmail2"></label>
+												<div class="label-p">по email</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div style="display: none" class="item ip-tab">
+							<div action="">
+								<div class="inputs-c biger-inputs">
+									<div class="item">
+										<div class="label-p">Тип организационно правовой
+											формы</div>
+										<div class="check-cont">
+											<select>
+												<option>Полное товарищество</option>
+												<option>Товарищество на вере</option>
+												<option>Общество с ограниченной ответственностью</option>
+												<option>Общество с дополнительной ответственностью</option>
+												<option>Акционерное общество</option>
+												<option>Производственные кооперативы</option>
+												<option>Государственные и муниципальные унитарные предприятия</option>
+											</select>
+										</div>
+										<div class="check-cont cb d-flex align-items-center">
+											<input type="checkbox" name="otherOrg" id="otherOrg">
+											<label for="otherOrg"></label>
+											<div class="label-p">Другое</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Наименование организации</div>
+										<div class="check-cont">
+											<input type="text" name="orgName" id="orgName">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">ИНН юридического лица</div>
+										<div class="check-cont">
+											<input type="text" name="innUL" id="innUL">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">ОГРН</div>
+										<div class="check-cont">
+											<input type="text" name="ogrnReg" id="ogrnReg">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Фамилия доверенного лица</div>
+										<div class="check-cont">
+											<input type="text" name="lastNameReg" id="lastNameReg">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Имя доверенного лица</div>
+										<div class="check-cont">
+											<input type="text" name="nameFace" id="nameFace">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Отчество доверенного лица</div>
+										<div class="check-cont">
+											<input type="text" name="otchFace" id="otchFace">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Мобильный телефон
+											ответственного лица</div>
+										<div class="check-cont">
+											<input type="tel" name="phoneFace" id="phoneFace">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">E-mail ответственного лица</div>
+										<div class="check-cont">
+											<input type="text" name="emailFace" id="emailFace">
+										</div>
+									</div>
+									<div class="item">
+										<div class="label-p">Подтверждение регистрации</div>
+										<div class="check-cont row-cb js-single-i">
+											<div class="item">
+												<input type="checkbox" name="confirmSms2" id="confirmSms2">
+												<label for="confirmSms2"></label>
+												<div class="label-p">по sms</div>
+											</div>
+											<div class="item">
+												<input type="checkbox" name="confirmSms2" id="confirmEmail2">
+												<label for="confirmEmail2"></label>
+												<div class="label-p">по email</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="btn-c">
+							<button class="btn btn-accent">
+								Зарегистрироваться
+							</button>
+							<button data-hide=".reg-win" data-show=".white-win.auth-win" class="btn btn-transparent js-shWin">
+								Назад
+							</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="my-footer">
+
+</div>
+
+
+<!--Modal for all pages start-->
+<div data-fancybox="" data-src="#consult">
+	<div id="consult" class="" style="display: none">
+		<div class="container ">
+			<div class="row">
+				<div class="col-12 ">
+					<!--start callback_form-->
+					<p>
+						<b>Привет, Мы Marketminer!</b> <br>
+						Мы здесь что бы помочь Вам с реализацией и развитием Вашего проекта! Оставьте свои контактные данные и мы свяжемся с вами.
+					</p>
+					<form>
+						<input type="hidden" name="theme" value="Заявка на обратный звонок на странице Главная">
+						<label for="name">Как вас зовут?</label>
+						<input type="text" id="name" name="name">
+
+						<label for="phone">Ваш контактный номер?</label>
+						<input type="tel" id="phone" name="phone">
+
+						<label for="callDate">Удобное дата и время для звонка (по Москве)</label>
+						<input type="text" id="callDate" name="callDate" class="datepick">
+
+						<label for="callDate">Ваш контактный E-mail</label>
+						<input type="email" name="email">
+
+						<p style="font-size: 12px">
+							Нажимая "Отправить", Я подтверждаю, что ознакомлен с <a href="" target="_blank">политикой конфиденциальности</a> и даю согласие на обработку своих персональных данных.
+						</p>
+						<button type="" name="callback_form" class="btn-accent" value="Заказать">Отправить</button>
+					</form>
+					<!--start callback_form-->
+				</div>
+			</div>
+		</div>
+		<div class="client-msg-cont">
+			<p id="err-sale-msg2" class="client-msg" style="color: red">Введите корректные данные</p>
+			<p id="err-order-msg2" class="client-msg" style="color: red">Согласитесь с политикой конфиденциальности и примите пользовательское соглашение</p>
+		</div>
+	</div>
+</div>
+<!--Modal for all pages end-->
+
+<!--For all pages START-->
+<link rel="stylesheet" href="css/main.min.css">
+<script src="js/scripts.min.js"></script>
+<script src="js/common.js"></script>
+<!--For all pages END-->
+<!--For this pages START-->
+
+<!--For this pages END-->
+
+<script>
+	/*For this page START*/
+	$('.js-single-i input[type=checkbox]').on('change', function() {
+		$('.js-single-i input[type=checkbox]').not(this).prop('checked', false);
+	});
+
+
+	$(document).on( "click", "#loginBtn", function() {
+		console.log('Для отправки на сервер = ', $('.js-form-get input').serialize());
+	});
+
+	$(function() {
+
+	});
+
+
+	/*For this page END*/
+
+	/*For all pages START*/
+	$(function() {
+		$('input[type="tel"]').mask("+7 (999) 999-9999");
+		$(document).on( "click", ".js-shWin", function() {
+			$($(this).data().hide).hide();
+			$($(this).data().show).fadeIn();
+
+			return false;
+		});
+		$(document).on( "click", ".tabs-c .item", function() {
+			$('.tabs-c .item').removeClass('active');
+			$(this).addClass('active');
+			$('.tabs-all>.item').hide();
+			$($(this).data().show).fadeIn();
+			return 0;
+		});
+
+
+	});
+	/*For all pages END*/
+</script>
+
+</body>
+</html>

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru" class="">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>-->>Dev SetInvest</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+	<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/css/ripples.min.css"/>
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body class="">
+
+<!--Top Arrow start-->
+<a href="javascript:" id="return-to-top" style="">
+	<i class="fa fa-chevron-up" aria-hidden="true"></i>
+</a>
+<!--Top Arrow end-->
+
+<div id="my-header" class="d-flex align-items-center slick-menu">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-1 d-flex align-items-center mym-cont">
+				<a href="#my-menu" class="hamburger hamburger--squeeze js-hamburger" type="button" id="menu-btn">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+				</a>
+				<nav id="my-menu">
+				</nav>
+			</div>
+			<div class="col-5  col-xxl-12 d-flex align-items-center">
+				<a href="/" class="logo-cont logo-inner">
+					<img src="img/logo.png" alt="">
+				</a>
+			</div>
+			<div class="col-3 col-xxl-3 d-flex align-items-center">
+				<div class="phone">
+					<div class="ph">+ 7 (342) 2000-240 <span>доб. 7405</span></div>
+				</div>
+			</div>
+			<div class="col-3 col-xxl-3 d-flex align-items-center justify-content-end">
+				<a href="" class="d-flex flex-column profileName text-md-right">
+					<span class="mr-3 compName text-md-right">ООО "Компания бла бла"</span>
+					<span class="mr-3 usrName text-md-right">Максим Сушенцев</span>
+				</a>
+				<a href="" class="d-flex align-items-center" id="logOut">
+					<svg
+							xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink"
+							width="22px" height="18px">
+						<defs>
+							<filter id="Filter_0">
+								<feFlood flood-color="rgb(54, 52, 52)" flood-opacity="1" result="floodOut" />
+								<feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+								<feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+							</filter>
+
+						</defs>
+						<g filter="url(#Filter_0)">
+							<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+									d="M2.000,0.001 L20.000,0.001 C21.100,0.001 22.000,0.902 22.000,2.003 L22.000,5.997 L20.000,5.997 L20.000,1.983 L2.000,1.983 L2.000,16.027 L20.000,16.027 L20.000,12.003 L22.000,12.003 L22.000,16.017 C22.000,17.118 21.100,17.999 20.000,17.999 L2.000,17.999 C0.900,17.999 0.000,17.118 0.000,16.017 L0.000,2.003 C0.000,0.891 0.900,0.001 2.000,0.001 ZM12.000,13.004 L8.000,9.000 L12.000,4.996 L12.000,7.999 L22.000,7.999 L22.000,10.001 L12.000,10.001 L12.000,13.004 Z"/>
+						</g>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="my-content" class="main-page">
+	<div class="container">
+		<div class="row">
+			<!--<div class="col-12 col-xxl-4 ">-->
+			<!--</div>-->
+			<div class="col-12 col-xxl-14 offset-xxl-4">
+				<div class="notification-dark">
+					<p>
+						Уважаемые пользователи, сервис «Личный кабинет» работает в тестовом режиме. В случае, возникновения сбоев в работе сервиса, просим сообщить об этом в службу техподдержки через раздел
+						<a href="">«Помощь»</a>.
+					</p>
+					<div class="close-btn" onclick="$(this).parents().find('.notification-dark').fadeOut();">
+						<svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								width="14px" height="14px">
+							<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+									d="M14.000,1.410 L12.590,-0.000 L7.000,5.590 L1.410,-0.000 L-0.000,1.410 L5.590,7.000 L-0.000,12.590 L1.410,14.000 L7.000,8.410 L12.590,14.000 L14.000,12.590 L8.410,7.000 L14.000,1.410 Z"/>
+						</svg>
+					</div>
+				</div>
+			</div>
+			<div class="col-9 col-xxl-11 offset-xxl-4">
+				<div class="white-win feedback-b">
+					<div class="h2">
+						Обратная связь
+					</div>
+					<a href="" style="" class="btn btn-transparent-icon">
+						<div class="svg-cont d-flex align-items-center">
+							<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									width="19px" height="18px">
+								<path fill-rule="evenodd"  fill="rgb(201, 50, 40)"
+										d="M0.971,14.257 L0.971,17.989 L4.703,17.989 L15.708,6.984 L11.976,3.252 L0.971,14.257 ZM18.593,4.098 C18.981,3.710 18.981,3.083 18.593,2.695 L16.265,0.367 C15.877,-0.021 15.250,-0.021 14.862,0.367 L13.041,2.188 L16.772,5.919 L18.593,4.098 Z"/>
+							</svg>
+						</div>
+						<div>Написать</div>
+					</a>
+					<div class="row mt-3">
+						<div class="col-6 item-s">
+							<div class="item">
+								<div class="item-fb">
+									<div class="svg-cont text-right">
+										<svg
+												xmlns="http://www.w3.org/2000/svg"
+												xmlns:xlink="http://www.w3.org/1999/xlink"
+												width="16px" height="21px">
+											<path fill-rule="evenodd"  fill="rgb(134, 192, 106)"
+													d="M8.000,16.000 C9.100,16.000 10.000,15.100 10.000,14.000 C10.000,12.900 9.100,12.000 8.000,12.000 C6.900,12.000 6.000,12.900 6.000,14.000 C6.000,15.100 6.900,16.000 8.000,16.000 ZM14.000,7.000 L13.000,7.000 L13.000,5.000 C13.000,2.240 10.760,-0.000 8.000,-0.000 C5.240,-0.000 3.000,2.240 3.000,5.000 L3.000,7.000 L2.000,7.000 C0.900,7.000 -0.000,7.900 -0.000,9.000 L-0.000,19.000 C-0.000,20.100 0.900,21.000 2.000,21.000 L14.000,21.000 C15.100,21.000 16.000,20.100 16.000,19.000 L16.000,9.000 C16.000,7.900 15.100,7.000 14.000,7.000 ZM4.900,5.000 C4.900,3.290 6.290,1.900 8.000,1.900 C9.710,1.900 11.100,3.290 11.100,5.000 L11.100,7.000 L4.900,7.000 L4.900,5.000 ZM14.000,19.000 L2.000,19.000 L2.000,9.000 L14.000,9.000 L14.000,19.000 Z"/>
+										</svg>
+									</div>
+								</div>
+								<div class="item-fb d-flex align-items-center">
+									<a href="">
+										Запрос справочной информации
+									</a>
+								</div>
+								<div class="item-fb small-txt text-right">
+									26.09.2017
+								</div>
+							</div>
+						</div>
+						<div class="col-6 item-s">
+							<div class="item">
+								<div class="item-fb">
+									<div class="svg-cont text-right">
+										<svg
+												xmlns="http://www.w3.org/2000/svg"
+												xmlns:xlink="http://www.w3.org/1999/xlink"
+												width="16px" height="21px">
+											<path fill-rule="evenodd"  fill="rgb(134, 192, 106)"
+													d="M8.000,16.000 C9.100,16.000 10.000,15.100 10.000,14.000 C10.000,12.900 9.100,12.000 8.000,12.000 C6.900,12.000 6.000,12.900 6.000,14.000 C6.000,15.100 6.900,16.000 8.000,16.000 ZM14.000,7.000 L13.000,7.000 L13.000,5.000 C13.000,2.240 10.760,-0.000 8.000,-0.000 C5.240,-0.000 3.000,2.240 3.000,5.000 L3.000,7.000 L2.000,7.000 C0.900,7.000 -0.000,7.900 -0.000,9.000 L-0.000,19.000 C-0.000,20.100 0.900,21.000 2.000,21.000 L14.000,21.000 C15.100,21.000 16.000,20.100 16.000,19.000 L16.000,9.000 C16.000,7.900 15.100,7.000 14.000,7.000 ZM4.900,5.000 C4.900,3.290 6.290,1.900 8.000,1.900 C9.710,1.900 11.100,3.290 11.100,5.000 L11.100,7.000 L4.900,7.000 L4.900,5.000 ZM14.000,19.000 L2.000,19.000 L2.000,9.000 L14.000,9.000 L14.000,19.000 Z"/>
+										</svg>
+									</div>
+								</div>
+								<div class="item-fb d-flex align-items-center">
+									<a href="">
+										Запрос консультации
+									</a>
+								</div>
+								<div class="item-fb small-txt text-right">
+									26.09.2017
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 item-s">
+							<div class="item">
+								<div class="item-fb">
+									<div class="svg-cont text-right">
+										<svg
+												xmlns="http://www.w3.org/2000/svg"
+												xmlns:xlink="http://www.w3.org/1999/xlink"
+												width="16px" height="21px">
+											<path fill-rule="evenodd"  fill="rgb(134, 192, 106)"
+													d="M8.000,16.000 C9.100,16.000 10.000,15.100 10.000,14.000 C10.000,12.900 9.100,12.000 8.000,12.000 C6.900,12.000 6.000,12.900 6.000,14.000 C6.000,15.100 6.900,16.000 8.000,16.000 ZM14.000,7.000 L13.000,7.000 L13.000,5.000 C13.000,2.240 10.760,-0.000 8.000,-0.000 C5.240,-0.000 3.000,2.240 3.000,5.000 L3.000,7.000 L2.000,7.000 C0.900,7.000 -0.000,7.900 -0.000,9.000 L-0.000,19.000 C-0.000,20.100 0.900,21.000 2.000,21.000 L14.000,21.000 C15.100,21.000 16.000,20.100 16.000,19.000 L16.000,9.000 C16.000,7.900 15.100,7.000 14.000,7.000 ZM4.900,5.000 C4.900,3.290 6.290,1.900 8.000,1.900 C9.710,1.900 11.100,3.290 11.100,5.000 L11.100,7.000 L4.900,7.000 L4.900,5.000 ZM14.000,19.000 L2.000,19.000 L2.000,9.000 L14.000,9.000 L14.000,19.000 Z"/>
+										</svg>
+									</div>
+								</div>
+								<div class="item-fb d-flex align-items-center">
+									<a href="">
+										Жалоба
+									</a>
+								</div>
+								<div class="item-fb small-txt text-right">
+									26.09.2017
+								</div>
+							</div>
+						</div>
+						<div class="col-6 item-s">
+							<div class="item">
+								<div class="item-fb">
+									<div class="svg-cont text-right">
+										<svg
+												xmlns="http://www.w3.org/2000/svg"
+												xmlns:xlink="http://www.w3.org/1999/xlink"
+												width="16px" height="21px">
+											<path fill-rule="evenodd"  fill="rgb(134, 192, 106)"
+													d="M8.000,16.000 C9.100,16.000 10.000,15.100 10.000,14.000 C10.000,12.900 9.100,12.000 8.000,12.000 C6.900,12.000 6.000,12.900 6.000,14.000 C6.000,15.100 6.900,16.000 8.000,16.000 ZM14.000,7.000 L13.000,7.000 L13.000,5.000 C13.000,2.240 10.760,-0.000 8.000,-0.000 C5.240,-0.000 3.000,2.240 3.000,5.000 L3.000,7.000 L2.000,7.000 C0.900,7.000 -0.000,7.900 -0.000,9.000 L-0.000,19.000 C-0.000,20.100 0.900,21.000 2.000,21.000 L14.000,21.000 C15.100,21.000 16.000,20.100 16.000,19.000 L16.000,9.000 C16.000,7.900 15.100,7.000 14.000,7.000 ZM4.900,5.000 C4.900,3.290 6.290,1.900 8.000,1.900 C9.710,1.900 11.100,3.290 11.100,5.000 L11.100,7.000 L4.900,7.000 L4.900,5.000 ZM14.000,19.000 L2.000,19.000 L2.000,9.000 L14.000,9.000 L14.000,19.000 Z"/>
+										</svg>
+									</div>
+								</div>
+								<div class="item-fb d-flex align-items-center">
+									<a href="">
+										Запрос консультации
+									</a>
+								</div>
+								<div class="item-fb small-txt text-right">
+									26.09.2017
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 item-s">
+							<div class="item private-fb">
+								<div class="item-fb">
+									<div class="svg-cont text-right">
+										<div class="svg-cont text-right">
+											<svg
+													xmlns="http://www.w3.org/2000/svg"
+													xmlns:xlink="http://www.w3.org/1999/xlink"
+													width="16px" height="21px">
+												<path fill-rule="evenodd"  fill="rgb(134, 192, 106)"
+														d="M8.000,16.000 C9.100,16.000 10.000,15.100 10.000,14.000 C10.000,12.900 9.100,12.000 8.000,12.000 C6.900,12.000 6.000,12.900 6.000,14.000 C6.000,15.100 6.900,16.000 8.000,16.000 ZM14.000,7.000 L13.000,7.000 L13.000,5.000 C13.000,2.240 10.760,-0.000 8.000,-0.000 C5.240,-0.000 3.000,2.240 3.000,5.000 L3.000,7.000 L2.000,7.000 C0.900,7.000 -0.000,7.900 -0.000,9.000 L-0.000,19.000 C-0.000,20.100 0.900,21.000 2.000,21.000 L14.000,21.000 C15.100,21.000 16.000,20.100 16.000,19.000 L16.000,9.000 C16.000,7.900 15.100,7.000 14.000,7.000 ZM4.900,5.000 C4.900,3.290 6.290,1.900 8.000,1.900 C9.710,1.900 11.100,3.290 11.100,5.000 L11.100,7.000 L4.900,7.000 L4.900,5.000 ZM14.000,19.000 L2.000,19.000 L2.000,9.000 L14.000,9.000 L14.000,19.000 Z"/>
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="item-fb d-flex align-items-center">
+									<a href="">
+										Запрос справочной информации
+									</a>
+								</div>
+								<div class="item-fb small-txt text-right">
+									26.09.2017
+								</div>
+							</div>
+						</div>
+						<div class="col-6 item-s">
+							<div class="item private-fb">
+								<div class="item-fb">
+									<div class="svg-cont text-right">
+										<svg
+												xmlns="http://www.w3.org/2000/svg"
+												xmlns:xlink="http://www.w3.org/1999/xlink"
+												width="16px" height="21px">
+											<path fill-rule="evenodd"  fill="rgb(134, 192, 106)"
+													d="M8.000,16.000 C9.100,16.000 10.000,15.100 10.000,14.000 C10.000,12.900 9.100,12.000 8.000,12.000 C6.900,12.000 6.000,12.900 6.000,14.000 C6.000,15.100 6.900,16.000 8.000,16.000 ZM14.000,7.000 L13.000,7.000 L13.000,5.000 C13.000,2.240 10.760,-0.000 8.000,-0.000 C5.240,-0.000 3.000,2.240 3.000,5.000 L3.000,7.000 L2.000,7.000 C0.900,7.000 -0.000,7.900 -0.000,9.000 L-0.000,19.000 C-0.000,20.100 0.900,21.000 2.000,21.000 L14.000,21.000 C15.100,21.000 16.000,20.100 16.000,19.000 L16.000,9.000 C16.000,7.900 15.100,7.000 14.000,7.000 ZM4.900,5.000 C4.900,3.290 6.290,1.900 8.000,1.900 C9.710,1.900 11.100,3.290 11.100,5.000 L11.100,7.000 L4.900,7.000 L4.900,5.000 ZM14.000,19.000 L2.000,19.000 L2.000,9.000 L14.000,9.000 L14.000,19.000 Z"/>
+										</svg>
+									</div>
+								</div>
+								<div class="item-fb d-flex align-items-center">
+									<a href="">
+										Сообщение о бездоговорном
+										(безучетном) потреблении
+									</a>
+								</div>
+								<div class="item-fb small-txt text-right">
+									26.09.2017
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 item-s">
+							<div class="item private-fb">
+								<div class="item-fb">
+									<div class="svg-cont text-right">
+										<svg
+												xmlns="http://www.w3.org/2000/svg"
+												xmlns:xlink="http://www.w3.org/1999/xlink"
+												width="16px" height="21px">
+											<path fill-rule="evenodd"  fill="rgb(134, 192, 106)"
+													d="M8.000,16.000 C9.100,16.000 10.000,15.100 10.000,14.000 C10.000,12.900 9.100,12.000 8.000,12.000 C6.900,12.000 6.000,12.900 6.000,14.000 C6.000,15.100 6.900,16.000 8.000,16.000 ZM14.000,7.000 L13.000,7.000 L13.000,5.000 C13.000,2.240 10.760,-0.000 8.000,-0.000 C5.240,-0.000 3.000,2.240 3.000,5.000 L3.000,7.000 L2.000,7.000 C0.900,7.000 -0.000,7.900 -0.000,9.000 L-0.000,19.000 C-0.000,20.100 0.900,21.000 2.000,21.000 L14.000,21.000 C15.100,21.000 16.000,20.100 16.000,19.000 L16.000,9.000 C16.000,7.900 15.100,7.000 14.000,7.000 ZM4.900,5.000 C4.900,3.290 6.290,1.900 8.000,1.900 C9.710,1.900 11.100,3.290 11.100,5.000 L11.100,7.000 L4.900,7.000 L4.900,5.000 ZM14.000,19.000 L2.000,19.000 L2.000,9.000 L14.000,9.000 L14.000,19.000 Z"/>
+										</svg>
+									</div>
+								</div>
+								<div class="item-fb d-flex align-items-center">
+									<a href="">
+										Запрос электронных копий документов
+										по результатам оказания услуг
+										(актов), актов безучетного
+										(бездоговорного) потребления
+									</a>
+								</div>
+								<div class="item-fb small-txt text-right">
+									26.09.2017
+								</div>
+							</div>
+						</div>
+						<div class="col-6 item-s">
+							<div class="item">
+								<div class="item-fb">
+									<div class="svg-cont text-right">
+										<svg
+												xmlns="http://www.w3.org/2000/svg"
+												xmlns:xlink="http://www.w3.org/1999/xlink"
+												width="16px" height="21px">
+											<path fill-rule="evenodd"  fill="rgb(134, 192, 106)"
+													d="M8.000,16.000 C9.100,16.000 10.000,15.100 10.000,14.000 C10.000,12.900 9.100,12.000 8.000,12.000 C6.900,12.000 6.000,12.900 6.000,14.000 C6.000,15.100 6.900,16.000 8.000,16.000 ZM14.000,7.000 L13.000,7.000 L13.000,5.000 C13.000,2.240 10.760,-0.000 8.000,-0.000 C5.240,-0.000 3.000,2.240 3.000,5.000 L3.000,7.000 L2.000,7.000 C0.900,7.000 -0.000,7.900 -0.000,9.000 L-0.000,19.000 C-0.000,20.100 0.900,21.000 2.000,21.000 L14.000,21.000 C15.100,21.000 16.000,20.100 16.000,19.000 L16.000,9.000 C16.000,7.900 15.100,7.000 14.000,7.000 ZM4.900,5.000 C4.900,3.290 6.290,1.900 8.000,1.900 C9.710,1.900 11.100,3.290 11.100,5.000 L11.100,7.000 L4.900,7.000 L4.900,5.000 ZM14.000,19.000 L2.000,19.000 L2.000,9.000 L14.000,9.000 L14.000,19.000 Z"/>
+										</svg>
+									</div>
+								</div>
+								<div class="item-fb d-flex align-items-center">
+									<a href="">
+										Обращение по другим вопросам
+									</a>
+								</div>
+								<div class="item-fb small-txt text-right">
+									26.09.2017
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-3 col-xxl-3 right-menu">
+
+				<ul>
+					<li><a href="">
+						Заявка на ТП номер Lk8088
+					</a></li>
+					<li><a href="">
+						Заявка на ТП номер Lk8088
+					</a></li>
+					<li><a href="">
+						Заявка на ТП номер Lk8088
+					</a></li>
+					<li><a href="">
+						Заявка на ТП номер Lk8088
+					</a></li>
+					<li><a href="">
+						Заявка на ТП номер Lk8088
+					</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="main-menu">
+		<ul>
+			<li><a href="">
+				Мои заявки
+			</a></li>
+			<li class="active"><a href="">
+				Мои данные
+			</a></li>
+			<li><a href="">
+				Создать заявку
+			</a></li>
+			<li><a href="">
+				Обратная связь
+			</a></li>
+			<li><a href="">
+				Помощь
+			</a></li>
+			<li><a href="" class="btn-tr">
+				Перейти на сайт
+			</a></li>
+		</ul>
+	</div>
+	<div class="container">
+
+	</div>
+</div>
+
+<div id="my-footer">
+
+</div>
+
+
+<!--Modal for all pages start-->
+<div data-fancybox="" data-src="#consult">
+	<div id="consult" class="" style="display: none">
+		<div class="container ">
+			<div class="row">
+				<div class="col-12 ">
+					<!--start callback_form-->
+					<p>
+						<b>Привет, Мы Marketminer!</b> <br>
+						Мы здесь что бы помочь Вам с реализацией и развитием Вашего проекта! Оставьте свои контактные данные и мы свяжемся с вами.
+					</p>
+					<form>
+						<input type="hidden" name="theme" value="Заявка на обратный звонок на странице Главная">
+						<label for="name">Как вас зовут?</label>
+						<input type="text" id="name" name="name">
+
+						<label for="phone">Ваш контактный номер?</label>
+						<input type="tel" id="phone" name="phone">
+
+						<label for="callDate">Удобное дата и время для звонка (по Москве)</label>
+						<input type="text" id="callDate" name="callDate" class="datepick">
+
+						<label for="callDate">Ваш контактный E-mail</label>
+						<input type="email" name="email">
+
+						<p style="font-size: 12px">
+							Нажимая "Отправить", Я подтверждаю, что ознакомлен с <a href="" target="_blank">политикой конфиденциальности</a> и даю согласие на обработку своих персональных данных.
+						</p>
+						<button type="" name="callback_form" class="btn-accent" value="Заказать">Отправить</button>
+					</form>
+					<!--start callback_form-->
+				</div>
+			</div>
+		</div>
+		<div class="client-msg-cont">
+			<p id="err-sale-msg2" class="client-msg" style="color: red">Введите корректные данные</p>
+			<p id="err-order-msg2" class="client-msg" style="color: red">Согласитесь с политикой конфиденциальности и примите пользовательское соглашение</p>
+		</div>
+	</div>
+</div>
+<!--Modal for all pages end-->
+
+<!--For all pages START-->
+<link rel="stylesheet" href="css/main.min.css">
+<script src="js/scripts.min.js"></script>
+<script src="js/common.js"></script>
+<!--For all pages END-->
+<!--For this pages START-->
+
+<!--For this pages END-->
+
+<script>
+	/*For this page START*/
+
+	progressColor();
+
+	$(document).on( "click", "#loginBtn", function() {
+		console.log('Для отправки на сервер = ', $('.js-form-get input').serialize());
+	});
+
+	$(function() {
+
+	});
+
+
+	/*For this page END*/
+
+	/*For all pages START*/
+	$(function() {
+		$('input[type="tel"]').mask("+7 (999) 999-9999");
+		$(document).on( "click", ".js-shWin", function() {
+			$($(this).data().hide).hide();
+			$($(this).data().show).fadeIn();
+
+			return false;
+		});
+		$(document).on( "click", ".tabs-c .item", function() {
+			$('.tabs-c .item').removeClass('active');
+			$(this).addClass('active');
+			$('.tabs-all>.item').hide();
+			$($(this).data().show).fadeIn();
+			return 0;
+		});
+
+
+	});
+	/*For all pages END*/
+</script>
+
+</body>
+</html>

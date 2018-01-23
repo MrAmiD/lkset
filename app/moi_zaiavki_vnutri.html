@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ru" class="">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>-->>Dev SetInvest</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+	<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/css/ripples.min.css"/>
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body class="">
+
+<!--Top Arrow start-->
+<a href="javascript:" id="return-to-top" style="">
+	<i class="fa fa-chevron-up" aria-hidden="true"></i>
+</a>
+<!--Top Arrow end-->
+
+<div id="my-header" class="d-flex align-items-center slick-menu">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-1 d-flex align-items-center mym-cont">
+				<a href="#my-menu" class="hamburger hamburger--squeeze js-hamburger" type="button" id="menu-btn">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+				</a>
+				<nav id="my-menu">
+				</nav>
+			</div>
+			<div class="col-5  col-xxl-12 d-flex align-items-center">
+				<a href="/" class="logo-cont logo-inner">
+					<img src="img/logo.png" alt="">
+				</a>
+			</div>
+			<div class="col-3 col-xxl-3 d-flex align-items-center">
+				<div class="phone">
+					<div class="ph">+ 7 (342) 2000-240 <span>доб. 7405</span></div>
+				</div>
+			</div>
+			<div class="col-3 col-xxl-3 d-flex align-items-center justify-content-end">
+				<a href="" class="d-flex flex-column profileName text-md-right">
+					<span class="mr-3 compName text-md-right">ООО "Компания бла бла"</span>
+					<span class="mr-3 usrName text-md-right">Максим Сушенцев</span>
+				</a>
+				<a href="" class="d-flex align-items-center" id="logOut">
+					<svg
+							xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink"
+							width="22px" height="18px">
+						<defs>
+							<filter id="Filter_0">
+								<feFlood flood-color="rgb(54, 52, 52)" flood-opacity="1" result="floodOut" />
+								<feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+								<feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+							</filter>
+
+						</defs>
+						<g filter="url(#Filter_0)">
+							<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+									d="M2.000,0.001 L20.000,0.001 C21.100,0.001 22.000,0.902 22.000,2.003 L22.000,5.997 L20.000,5.997 L20.000,1.983 L2.000,1.983 L2.000,16.027 L20.000,16.027 L20.000,12.003 L22.000,12.003 L22.000,16.017 C22.000,17.118 21.100,17.999 20.000,17.999 L2.000,17.999 C0.900,17.999 0.000,17.118 0.000,16.017 L0.000,2.003 C0.000,0.891 0.900,0.001 2.000,0.001 ZM12.000,13.004 L8.000,9.000 L12.000,4.996 L12.000,7.999 L22.000,7.999 L22.000,10.001 L12.000,10.001 L12.000,13.004 Z"/>
+						</g>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="my-content" class="main-page">
+	<div class="container">
+		<div class="row">
+			<!--<div class="col-12 col-xxl-4 ">-->
+			<!--</div>-->
+			<div class="col-12 col-xxl-14 offset-xxl-4">
+				<div class="notification-dark">
+					<p>
+						Уважаемые пользователи, сервис «Личный кабинет» работает в тестовом режиме. В случае, возникновения сбоев в работе сервиса, просим сообщить об этом в службу техподдержки через раздел
+						<a href="">«Помощь»</a>.
+					</p>
+					<div class="close-btn" onclick="$(this).parents().find('.notification-dark').fadeOut();">
+						<svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								width="14px" height="14px">
+							<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+									d="M14.000,1.410 L12.590,-0.000 L7.000,5.590 L1.410,-0.000 L-0.000,1.410 L5.590,7.000 L-0.000,12.590 L1.410,14.000 L7.000,8.410 L12.590,14.000 L14.000,12.590 L8.410,7.000 L14.000,1.410 Z"/>
+						</svg>
+					</div>
+				</div>
+			</div>
+			<div class="col-9 col-xxl-11 offset-xxl-4">
+				<div class="white-win inner-form-win">
+					<div class="h2">
+						Мои заявки
+					</div>
+					<div class="order-status">
+						<div class="h3">
+							Заявка на ТП номер Lk8088
+						</div>
+						<div class="cont">
+							<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									width="20px" height="20px">
+								<path fill-rule="evenodd"  fill="rgb(201, 50, 40)"
+										d="M18.000,-0.000 L2.000,-0.000 C0.900,-0.000 0.010,0.900 0.010,2.000 L-0.000,20.000 L4.000,16.000 L18.000,16.000 C19.100,16.000 20.000,15.100 20.000,14.000 L20.000,2.000 C20.000,0.900 19.100,-0.000 18.000,-0.000 ZM11.000,9.000 L9.000,9.000 L9.000,3.000 L11.000,3.000 L11.000,9.000 ZM11.000,13.000 L9.000,13.000 L9.000,11.000 L11.000,11.000 L11.000,13.000 Z"/>
+							</svg>
+							<p class="">Текущий статус</p>
+							<p class="accent-txt">Договор заключен, ожидание выполнения ТУ</p>
+							<p>
+								26.09.2017 (23:08:26)
+							</p>
+						</div>
+						<textarea name="orderTxt" id="orderTxt" cols="30" rows="5" >
+
+						</textarea>
+						<div class="text-right">
+							<button class="btn btn-accent js-step-next" onclick="">
+								Отправить
+							</button>
+						</div>
+					</div>
+					<div class="old-order">
+						<a href="">
+							<div class="row item">
+								<div class="col-2">
+									<div class="svg-cont" style="">
+										<?xml version="1.0" encoding="utf-8"?>
+										<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+										<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EBF9FF;stroke:url(#SVGID_1_);stroke-miterlimit:10;}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="39.931" y1="80.889" x2="39.931" y2="-0.111">
+	<stop  offset="0.1297" style="stop-color:#17568A"/>
+	<stop  offset="0.9432" style="stop-color:#7FC7FF"/>
+</linearGradient>
+<rect x="-0.1" y="0.4" class="st0" width="80" height="80"/>
+<g>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="27.8205" y1="45.2332" x2="27.8205" y2="20.2047">
+		<stop  offset="0.1297" style="stop-color:#17568A"/>
+		<stop  offset="0.7865" style="stop-color:#7FC7FF"/>
+	</linearGradient>
+	<polygon class="st1" points="16.9,20.2 16.9,45.2 38.7,32.3 	"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="40.7384" y1="60.5732" x2="40.7384" y2="23.4342">
+		<stop  offset="0.1297" style="stop-color:#17568A"/>
+		<stop  offset="0.7865" style="stop-color:#7FC7FF"/>
+	</linearGradient>
+	<polygon class="st2" points="18.5,48.5 41.1,60.6 62.9,48.5 62.9,23.4 	"/>
+</g>
+</svg>
+									</div>
+								</div>
+								<div class="col-10">
+									<div class="h-order d-flex align-items-center justify-content-between">
+										<div class="discr">
+											<p class="name-txt">Иван Иванович Иванов</p>
+											<p class="small-txt">(информационнная поддержка)</p>
+										</div>
+										<div class="ord-date">
+											<p class="small-txt">26.09.2017 <br>
+												23:08:26</p>
+										</div>
+									</div>
+									<div class="content">
+										<p>
+											Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции позволяет оценить значение направлений прогрессивного развития.
+										</p>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="">
+							<div class="row item">
+								<div class="col-2">
+									<div class="svg-cont" style="">
+										<?xml version="1.0" encoding="utf-8"?>
+										<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+										<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EBF9FF;stroke:url(#SVGID_1_);stroke-miterlimit:10;}
+	.st1{fill:url(#SVGID_2_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="39.872" y1="80.0937" x2="39.872" y2="-0.9063">
+	<stop  offset="0.1297" style="stop-color:#17568A"/>
+	<stop  offset="0.9432" style="stop-color:#7FC7FF"/>
+</linearGradient>
+<rect x="-0.1" y="-0.4" class="st0" width="80" height="80"/>
+<g>
+	<g id="Layer_2_5_">
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="39.872" y1="63.9204" x2="39.872" y2="15.267">
+			<stop  offset="0.1297" style="stop-color:#17568A"/>
+			<stop  offset="0.9432" style="stop-color:#7FC7FF"/>
+		</linearGradient>
+		<path class="st1" d="M53.1,48c-6.1-2.2-8-4-8-8c0-0.4,0.1-0.8,0.2-1c0.5-1.2,1.8-1.4,2.5-4.9c0.3-1.8,2,0,2.3-4.1
+			c0-1.6-0.9-2-0.9-2s0.5-2.4,0.6-4.3c0.2-2.3-1.4-8.3-9.8-8.3c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1,0c-8.4,0-10,6-9.8,8.3
+			c0.2,1.9,0.6,4.3,0.6,4.3s-0.9,0.4-0.9,2c0.3,4.1,1.9,2.3,2.3,4.1c0.7,3.5,2,3.7,2.5,4.9c0.1,0.3,0.2,0.6,0.2,1c0,3.9-1.9,5.8-8,8
+			c-6.1,2.2-8.8,4.4-8.8,6c0,1.5,0,10,0,10h22h0h22c0,0,0-8.5,0-10C61.9,52.4,59.1,50.2,53.1,48z"/>
+	</g>
+</g>
+</svg>
+									</div>
+								</div>
+								<div class="col-10">
+									<div class="h-order d-flex align-items-center justify-content-between">
+										<div class="discr">
+											<p class="name-txt">Иван Иванович Иванов</p>
+											<p class="small-txt">(информационнная поддержка)</p>
+										</div>
+										<div class="ord-date">
+											<p class="small-txt">26.09.2017 <br>
+												23:08:26</p>
+										</div>
+									</div>
+									<div class="content">
+										<p>
+											Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции позволяет оценить значение направлений прогрессивного развития.
+										</p>
+									</div>
+									<div class="cont d-flex justify-content-start align-items-center mt-3">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px">
+											<path fill-rule="evenodd" fill="rgb(201, 50, 40)" d="M18.000,-0.000 L2.000,-0.000 C0.900,-0.000 0.010,0.900 0.010,2.000 L-0.000,20.000 L4.000,16.000 L18.000,16.000 C19.100,16.000 20.000,15.100 20.000,14.000 L20.000,2.000 C20.000,0.900 19.100,-0.000 18.000,-0.000 ZM11.000,9.000 L9.000,9.000 L9.000,3.000 L11.000,3.000 L11.000,9.000 ZM11.000,13.000 L9.000,13.000 L9.000,11.000 L11.000,11.000 L11.000,13.000 Z"></path>
+										</svg>
+										<p class="accent-txt ml-3">Договор заключен, ожидание выполнения ТУ</p>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="">
+							<div class="row item">
+								<div class="col-2">
+									<div class="svg-cont" style="">
+										<?xml version="1.0" encoding="utf-8"?>
+										<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+										<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EBF9FF;stroke:url(#SVGID_1_);stroke-miterlimit:10;}
+	.st1{fill:url(#SVGID_2_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="39.872" y1="81.0141" x2="39.872" y2="1.408202e-02">
+	<stop  offset="0.1297" style="stop-color:#17568A"/>
+	<stop  offset="0.9432" style="stop-color:#7FC7FF"/>
+</linearGradient>
+<rect x="-0.1" y="0.5" class="st0" width="80" height="80"/>
+<g>
+	<g id="Layer_2_25_">
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="39.872" y1="64.873" x2="39.872" y2="16.1552">
+			<stop  offset="0.1297" style="stop-color:#17568A"/>
+			<stop  offset="0.9432" style="stop-color:#7FC7FF"/>
+		</linearGradient>
+		<path class="st1" d="M53.2,48.8c-6.1-2.2-8.1-1.1-8.1-5.1c0-0.2,0-0.5,0-0.9h0.3c4.2,0.3,8.2,0.6,9.1,0c1.4-1-3.5-2.5-3.5-15.5
+			c0-6.5-4.3-11.2-10.8-11.2c-0.1,0-0.1,0-0.2,0c0,0,0,0,0,0v0c0,0,0,0-0.1,0c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0,0
+			c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0-0.1,0v0c0,0,0,0,0,0c-0.1,0-0.1,0-0.2,0c-6.5,0-10.8,4.6-10.8,11.2c0,12.9-5,14.5-3.5,15.5
+			c0.9,0.6,4.9,0.3,9.1,0h0.3c0,0.4,0,0.7,0,0.9c0,4-2,2.9-8.1,5.1c-6.1,2.2-7.9,4.5-7.9,6c0,1.5,0,10.1,0,10.1h21.2h0h0h0h0h21.2
+			c0,0,0-8.5,0-10.1C61.1,53.3,59.3,51,53.2,48.8z"/>
+	</g>
+</g>
+</svg>
+									</div>
+								</div>
+								<div class="col-8">
+									<div class="content">
+										<p>
+											Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции позволяет оценить значение направлений прогрессивного развития.
+										</p>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="h-order d-flex align-items-center justify-content-end">
+										<div class="ord-date ">
+											<p class="small-txt">26.09.2017 <br>
+												23:08:26</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-3 col-xxl-3 right-menu">
+				<div class="h3">
+					Мои заявки
+				</div>
+				<ul>
+					<li><a href="">
+						Заявка на ТП номер Lk8088
+					</a></li>
+					<li><a href="">
+						Заявка на ТП номер Lk8088
+					</a></li>
+					<li><a href="">
+						Заявка на ТП номер Lk8088
+					</a></li>
+					<li><a href="">
+						Заявка на ТП номер Lk8088
+					</a></li>
+					<li><a href="">
+						Заявка на ТП номер Lk8088
+					</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="main-menu">
+		<ul>
+			<li><a href="">
+				Мои заявки
+			</a></li>
+			<li class="active"><a href="">
+				Мои данные
+			</a></li>
+			<li><a href="">
+				Создать заявку
+			</a></li>
+			<li><a href="">
+				Обратная связь
+			</a></li>
+			<li><a href="">
+				Помощь
+			</a></li>
+			<li><a href="" class="btn-tr">
+				Перейти на сайт
+			</a></li>
+		</ul>
+	</div>
+	<div class="container">
+
+	</div>
+</div>
+
+<div id="my-footer">
+
+</div>
+
+
+<!--Modal for all pages start-->
+<div data-fancybox="" data-src="#consult">
+	<div id="consult" class="" style="display: none">
+		<div class="container ">
+			<div class="row">
+				<div class="col-12 ">
+					<!--start callback_form-->
+					<p>
+						<b>Привет, Мы Marketminer!</b> <br>
+						Мы здесь что бы помочь Вам с реализацией и развитием Вашего проекта! Оставьте свои контактные данные и мы свяжемся с вами.
+					</p>
+					<form>
+						<input type="hidden" name="theme" value="Заявка на обратный звонок на странице Главная">
+						<label for="name">Как вас зовут?</label>
+						<input type="text" id="name" name="name">
+
+						<label for="phone">Ваш контактный номер?</label>
+						<input type="tel" id="phone" name="phone">
+
+						<label for="callDate">Удобное дата и время для звонка (по Москве)</label>
+						<input type="text" id="callDate" name="callDate" class="datepick">
+
+						<label for="callDate">Ваш контактный E-mail</label>
+						<input type="email" name="email">
+
+						<p style="font-size: 12px">
+							Нажимая "Отправить", Я подтверждаю, что ознакомлен с <a href="" target="_blank">политикой конфиденциальности</a> и даю согласие на обработку своих персональных данных.
+						</p>
+						<button type="" name="callback_form" class="btn-accent" value="Заказать">Отправить</button>
+					</form>
+					<!--start callback_form-->
+				</div>
+			</div>
+		</div>
+		<div class="client-msg-cont">
+			<p id="err-sale-msg2" class="client-msg" style="color: red">Введите корректные данные</p>
+			<p id="err-order-msg2" class="client-msg" style="color: red">Согласитесь с политикой конфиденциальности и примите пользовательское соглашение</p>
+		</div>
+	</div>
+</div>
+<!--Modal for all pages end-->
+
+<!--For all pages START-->
+<link rel="stylesheet" href="css/main.min.css">
+<script src="js/scripts.min.js"></script>
+<script src="js/common.js"></script>
+<!--For all pages END-->
+<!--For this pages START-->
+
+<!--For this pages END-->
+
+<script>
+	/*For this page START*/
+
+	progressColor();
+
+	$(document).on( "click", "#loginBtn", function() {
+		console.log('Для отправки на сервер = ', $('.js-form-get input').serialize());
+	});
+
+	$(function() {
+
+	});
+
+
+	/*For this page END*/
+
+	/*For all pages START*/
+	$(function() {
+		$('input[type="tel"]').mask("+7 (999) 999-9999");
+		$(document).on( "click", ".js-shWin", function() {
+			$($(this).data().hide).hide();
+			$($(this).data().show).fadeIn();
+
+			return false;
+		});
+		$(document).on( "click", ".tabs-c .item", function() {
+			$('.tabs-c .item').removeClass('active');
+			$(this).addClass('active');
+			$('.tabs-all>.item').hide();
+			$($(this).data().show).fadeIn();
+			return 0;
+		});
+
+
+	});
+	/*For all pages END*/
+</script>
+
+</body>
+</html>
