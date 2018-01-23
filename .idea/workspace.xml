@@ -2,370 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d4d3dbb-f277-4185-8481-0ccfe0eb9775" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/img/progressbar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/gae-go/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/gae-python/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/_mixins/mixins.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fileUpload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_extra/asap/_footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_extra/asap/_header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_extra/asap/_process.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_extra/asap/_setup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_extra/asap/about.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_extra/asap/contact.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_extra/asap/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_extra/asap/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_extra/asap/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_extra/upload-chunked.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_extra/upload-target.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_src/_templates/_footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_src/_templates/_header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_src/_templates/component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_src/_templates/content.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/_src/_templates/theme.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/analytics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/asap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/background.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/carousel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/checkbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/checkpoint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/cookie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/core.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/dropdown.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/equalize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/grid-float.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/grid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/lightbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/mediaquery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/navigation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/number.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/pagination.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/range.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/scrollbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/sticky.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/swap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/tooltip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/touch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/transition.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/upload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/components/viewer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/css/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/css/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/css/src/demo.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/css/src/includes/demo-tabs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/css/src/includes/demo.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/css/src/includes/prism.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/css/src/includes/setup.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/css/src/site.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/js/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/js/modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/js/site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/js/src/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/js/src/includes/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/js/src/site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/themes/light.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/demo/themes/raw.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/background.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/checkbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/checkpoint.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/dropdown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/grid-float.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/lightbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/navigation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/number.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/pagination.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/range.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/scrollbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/sticky.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light/carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light/checkbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light/dropdown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light/lightbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light/navigation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light/number.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light/pagination.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light/range.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light/scrollbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light/tooltip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light/upload.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/themes/light/viewer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/tooltip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/upload.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/css/viewer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/analytics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/asap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/background.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/checkpoint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/equalize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/lightbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/mediaquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/navigation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/number.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/pagination.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/scrollbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/sticky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/swap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/tabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/touch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/dist/js/viewer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/analytics.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/asap.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/background.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/carousel.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/checkbox.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/checkpoint.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/cookie.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/core.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/dropdown.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/equalize.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/grid.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/analytics.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/asap.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/background.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/carousel.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/checkbox.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/checkpoint.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/cookie.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/core.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/dropdown.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/equalize.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/grid.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/index.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/lightbox.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/mediaquery.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/navigation.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/number.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/pagination.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/range.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/scrollbar.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/sticky.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/swap.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/tabs.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/tooltip.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/touch.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/transition.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/upload.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/json/viewer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/lightbox.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/mediaquery.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/navigation.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/number.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/pagination.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/range.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/scrollbar.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/sticky.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/swap.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/tabs.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/tooltip.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/touch.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/transition.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/upload.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/docs/viewer.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/analytics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/analytics.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/asap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/asap.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/background.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/background.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/carousel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/carousel.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/checkbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/checkbox.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/checkpoint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/checkpoint.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/cookie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/cookie.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/core.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/core.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/dropdown.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/dropdown.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/equalize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/equalize.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/grid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/grid.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/lightbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/lightbox.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/mediaquery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/mediaquery.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/navigation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/navigation.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/number.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/number.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/pagination.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/pagination.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/range.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/range.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/scrollbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/scrollbar.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/sticky.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/sticky.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/swap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/swap.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/tabs.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/themes/light.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/themes/raw.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/tooltip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/tooltip.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/touch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/touch.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/transition.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/transition.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/upload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/upload.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/viewer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/docs/viewer.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/analytics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/asap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/background.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/checkpoint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/equalize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/lightbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/mediaquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/navigation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/number.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/pagination.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/scrollbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/sticky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/swap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/tabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/touch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/js/viewer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/background.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/checkbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/checkpoint.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/dropdown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/equalize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/grid-float.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/imports/grid-flex-config.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/imports/grid-flex-mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/imports/grid-float-config.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/imports/grid-float-mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/imports/utils.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/lightbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/navigation.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/number.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/range.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/scrollbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/sticky.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/swap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/tabs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/_config.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/checkbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/dropdown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/lightbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/navigation.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/number.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/range.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/scrollbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/tabs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/upload.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/themes/light/viewer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/touch.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/transition.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/upload.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/src/less/viewer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/tasks/docs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/Formstone-master/tasks/gpl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/angularjs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/basic-plus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/basic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/bower-version-update.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/cors/postmessage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/cors/result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/css/jquery-ui-demo-ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/css/jquery-ui-demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/css/jquery.fileupload-noscript.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/css/jquery.fileupload-ui-noscript.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/css/jquery.fileupload-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/css/jquery.fileupload.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/jquery-ui.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/cors/jquery.postmessage-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/cors/jquery.xdr-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/jquery.fileupload-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/jquery.fileupload-audio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/jquery.fileupload-image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/jquery.fileupload-jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/jquery.fileupload-process.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/jquery.fileupload-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/jquery.fileupload-validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/jquery.fileupload-video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/jquery.fileupload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/jquery.iframe-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/js/vendor/jquery.ui.widget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/gae-go/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/gae-go/app/main.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/gae-go/static/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/gae-python/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/gae-python/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/gae-python/static/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/php/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/php/UploadHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/php/docker-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/php/files/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/php/files/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/server/php/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/obratnaya_svyaz_zaprosy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/fon.png" afterPath="$PROJECT_DIR$/app/img/fon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/logo.png" afterPath="$PROJECT_DIR$/app/img/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.min.css" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/loginRegWin.html" afterPath="$PROJECT_DIR$/app/loginRegWin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_media.sass" afterPath="$PROJECT_DIR$/app/sass/_media.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_vars.sass" afterPath="$PROJECT_DIR$/app/sass/_vars.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -385,7 +30,7 @@
     <favorites_list name="Nukleron" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.541309">
+    <splitter split-orientation="horizontal" split-proportion="0.6008584">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
@@ -398,20 +43,27 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="325">
-                  <caret line="343" column="7" selection-start-line="343" selection-start-column="7" selection-end-line="343" selection-end-column="7" />
+                <state relative-caret-position="92">
+                  <caret line="37" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
                   <folding>
-                    <element signature="n#select#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#a#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#a#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="loginRegWin.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/loginRegWin.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="603">
+                  <caret line="596" column="0" selection-start-line="596" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -420,7 +72,7 @@
           <file leaf-file-name="allForm.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/allForm.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="23694">
+                <state relative-caret-position="603">
                   <caret line="1410" column="0" selection-start-line="1410" selection-start-column="0" selection-end-line="1410" selection-end-column="0" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -447,8 +99,8 @@
           <file leaf-file-name="obratnaiya_svyaz.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/obratnaiya_svyaz.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2244">
-                  <caret line="476" column="0" selection-start-line="476" selection-start-column="0" selection-end-line="476" selection-end-column="0" />
+                <state relative-caret-position="361">
+                  <caret line="465" column="26" selection-start-line="465" selection-start-column="26" selection-end-line="465" selection-end-column="26" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -464,6 +116,16 @@
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="fileUpload.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/fileUpload.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="242">
+                  <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -515,21 +177,21 @@
           <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="251">
+                <state relative-caret-position="2420">
                   <caret line="110" column="21" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2078">
-                  <caret line="1429" column="10" selection-start-line="1429" selection-start-column="1" selection-end-line="1429" selection-end-column="10" />
+                <state relative-caret-position="181">
+                  <caret line="967" column="0" selection-start-line="967" selection-start-column="0" selection-end-line="967" selection-end-column="0" />
                   <folding>
-                    <element signature="e#14755#15062#2" expanded="true" />
-                    <element signature="e#23739#24043#2" expanded="true" />
+                    <element signature="e#14785#15092#2" expanded="true" />
+                    <element signature="e#23782#24086#2" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -545,11 +207,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_media.sass" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_media.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+                <state relative-caret-position="374">
+                  <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -592,15 +254,15 @@
         <option value="$PROJECT_DIR$/app/sass/_mixins/mixins.sass" />
         <option value="$PROJECT_DIR$/app/sass/_libs.sass" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
-        <option value="$PROJECT_DIR$/app/loginRegWin.html" />
-        <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
         <option value="$PROJECT_DIR$/app/obratnaiya_svyaz.html" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/allForm.html" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/css/style.css" />
+        <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/loginRegWin.html" />
       </list>
     </option>
   </component>
@@ -710,8 +372,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -758,79 +418,19 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery-File-Upload-master" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_mixins" />
+              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="D:\PraWeb\SetInvest\Layouts\node_modules\gulp" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -926,6 +526,7 @@
       <workItem from="1514171758145" duration="15017000" />
       <workItem from="1514263950423" duration="15336000" />
       <workItem from="1516696433901" duration="1568000" />
+      <workItem from="1516699195144" duration="3060000" />
     </task>
     <task id="LOCAL-00001" summary="layouts typeless">
       <created>1507611710743</created>
@@ -994,20 +595,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="418655000" />
+    <option name="totallyTimeSpent" value="421715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18079399" sideWeight="0.27746478" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18079399" sideWeight="0.7225352" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18347639" sideWeight="0.28551337" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18347639" sideWeight="0.71448666" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19300225" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19864559" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19842164" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1054,23 +655,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="n#select#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_fonts.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1108,8 +692,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14755#15062#2" expanded="true" />
-            <element signature="e#23739#24043#2" expanded="true" />
+            <element signature="e#14785#15092#2" expanded="true" />
+            <element signature="e#23782#24086#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1127,14 +711,8 @@
         <state relative-caret-position="1819">
           <caret line="296" column="122" selection-start-line="296" selection-start-column="122" selection-end-line="296" selection-end-column="122" />
           <folding>
-            <element signature="n#select#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1176,8 +754,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14755#15062#2" expanded="true" />
-            <element signature="e#23739#24043#2" expanded="true" />
+            <element signature="e#14785#15092#2" expanded="true" />
+            <element signature="e#23782#24086#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1195,14 +773,8 @@
         <state relative-caret-position="264">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="n#select#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1244,14 +816,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#select#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1261,14 +827,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#select#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1336,13 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/loginRegWin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/svg11/svg-basic-structure.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1358,10 +911,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="228" column="16" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moi_zaiavki_vnutri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="456" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2420">
+          <caret line="110" column="21" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/obratnaiya_svyaz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="476" column="0" selection-start-line="476" selection-start-column="0" selection-end-line="476" selection-end-column="0" />
+        <state relative-caret-position="361">
+          <caret line="465" column="26" selection-start-line="465" selection-start-column="26" selection-end-line="465" selection-end-column="26" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1380,24 +964,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="228" column="16" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/allForm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23694">
+        <state relative-caret-position="603">
           <caret line="1410" column="0" selection-start-line="1410" selection-start-column="0" selection-end-line="1410" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1420,62 +989,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/moi_zaiavki_vnutri.html">
+    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="456" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+    <entry file="file://$PROJECT_DIR$/app/fileUpload.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="110" column="21" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/jQuery-File-Upload-master/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2078">
-          <caret line="1429" column="10" selection-start-line="1429" selection-start-column="1" selection-end-line="1429" selection-end-column="10" />
+        <state relative-caret-position="181">
+          <caret line="967" column="0" selection-start-line="967" selection-start-column="0" selection-end-line="967" selection-end-column="0" />
           <folding>
-            <element signature="e#14755#15062#2" expanded="true" />
-            <element signature="e#23739#24043#2" expanded="true" />
+            <element signature="e#14785#15092#2" expanded="true" />
+            <element signature="e#23782#24086#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="343" column="7" selection-start-line="343" selection-start-column="7" selection-end-line="343" selection-end-column="7" />
+        <state relative-caret-position="92">
+          <caret line="37" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
           <folding>
-            <element signature="n#select#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/loginRegWin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="596" column="0" selection-start-line="596" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
